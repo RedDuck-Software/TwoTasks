@@ -23,3 +23,25 @@ ctx.prototype.__getStyleState = function () {
     }
     return styleState;
 };
+
+/*
+
+function ctx() {};
+
+const STYLES = {
+    a: {canvas: '1'},
+    b: {canvas: '2'},
+    c: {canvas: '3'},
+}
+
+function test() {
+    ctx.prototype.__setDefaultStyles();
+    console.log(ctx.prototype.__getStyleState());
+}
+
+test();
+
+*/
+
+
+
